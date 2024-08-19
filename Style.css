@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.container{
+  max-width: 780px;  
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+  padding: 10%;
+}
+
+h1{
+    margin-bottom: 16px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 6px;
+    border: 2px solid black;
+
+}
+
+textarea:focus {
+    border-color: #007bff9f;
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.144);
+}
